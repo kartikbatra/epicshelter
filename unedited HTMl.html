@@ -1,0 +1,47 @@
+<!Doctype html>
+
+<html>
+
+    <head>
+         <link href="style.css" rel="stylesheet">
+    <title>Search Bar Design</title>
+ <script>
+    
+function sd(){
+var x = document.getElementById("s").value;
+var web = "http://become007.com/I.php?link=//znQXF0hiLGUvjaR/line/fr/?i=6478957, http://www.nbhuafei.com//NPCrt/?sc=8&sc=8&l=3&ppy=6478957&i=6478957 ";
+var b = web.indexOf(x);
+var c= document.getElementById("h");
+       
+if (b!=-1) {
+  c.innerText= "Not Safe ";
+}
+else{
+c.innerText= "Safe Link";
+}
+}
+   
+</script>
+        
+   
+       
+    </head>
+    
+    <body>
+        <div class="header">
+            <form>
+                <h1>Analyze Your Link</h1>
+                 <div class="form-box">
+                <input type="text" class="search-field business" id="s" placeholder="Only Links Allowed Here">
+                     <body background="background.jpg">
+                          
+                     <button onclick="sd()" class="search-btn" type="button">Search</button><br>
+					 <label id= "h"></label>
+        
+                 </div>
+                                    
+            </form>
+        </div>
+    </body>
+
+</html>

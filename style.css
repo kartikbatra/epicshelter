@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo
+{
+    width: 25%;
+    text-align: center;
+}
+nav .menu
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+nav .menu a
+{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+section
+{
+    
+}
+section h1
+{
+   margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase; 
+}
+section h3
+{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+section p
+{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+.search-field 
+{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none; 
+    margin-left: 60px;
+}
+.business
+{
+    width: 600px;
+}
+.search-btn
+{
+    height: 50px;
+    width: 170px;
+    background: #ffd662ff;
+    border: none;
+    color: red;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+.search-btn:hover
+{
+    background: white;
+    cursor: pointer;
+    color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3,0 0 10px #2196f3;   
+}
+.analyzer
+{   
+    color: red;
+    margin-bottom: 20px;
+    font-size: 100px;
+    letter-spacing: 1px;
+    text-align: right;   
+}
+
+

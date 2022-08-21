@@ -1,0 +1,48 @@
+.body{
+  position: absolute;
+  width:100%;
+  height:1000px;
+    background-color:lightgrey;
+}
+.Ptitle{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 280%;
+  color:#6da3e9;
+}
+.PsubTitle{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 140%;
+  color:black;
+}
+.form_area{
+  position: absolute;
+  width: 80%;
+  left:10%;
+}
+.form_name{
+  font-size: 140%;
+  font-family: sans-serif;
+}
+.input_common{
+  width: 100%;
+  height:30px;
+  box-shadow: 0 0 2px 0;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+.input_text_common{
+  box-shadow: 0 0 2px 0;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+.terms_style{
+  font-size: 120%;
+  font-family: sans-serif;
+}
+.Submit{
+  position: absolute;
+  left:45%;
+  font-size: 120%;
+}
